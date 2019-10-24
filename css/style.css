@@ -73,6 +73,7 @@ body {
 .header .navbar.open {
   transform: translateX(100%);
   transition: ease .5s;
+  display: none;
 }
 
 .drw_menu {
@@ -142,6 +143,7 @@ body {
 .drw_menu ul li a {
   color: #707070;
   font-family: 'Lato', sans-serif;
+  display: block;
 }
 
 .drw_menu ul li::after {
@@ -623,7 +625,7 @@ body {
   background-color: #FFFFFF;
   color: #333333;
   text-align: right;
-  padding: 0.5rem 21px 0.5rem 0;
+  padding: 0.5em 0.2em 0.5em 0.2em;
   font-family: 'Lato', sans-serif;
 }
 
@@ -649,8 +651,8 @@ body {
 
 @media screen and (max-width: 1365px) {
   .price .price-containe {
-    text-align: center;
-    width: 90%;
+    text-align: left;
+    width: 95%;
   }
   .price .price-containe .image {
     float: none;
@@ -659,18 +661,6 @@ body {
   }
   .price table.price_table {
     margin: 0 auto;
-  }
-}
-
-@media screen and (max-width: 740px) {
-  .price .price-containe {
-    text-align: center;
-    width: 90%;
-  }
-  .price .price-containe .image {
-    float: none;
-    margin-right: 0;
-    margin-bottom: 2rem;
   }
 }
 
@@ -732,7 +722,7 @@ body {
 
 @media screen and (max-width: 740px) {
   .access .access_text {
-    margin-left: 2rem;
+    margin-left: 1em;
   }
 }
 
@@ -1097,8 +1087,10 @@ body {
   }
 }
 
-.contact .contact-form .name-wrap {
-  margin: 0 43px 0 52px;
+@media screen and (max-width: 740px) {
+  .contact .contact-containe {
+    padding-bottom: 0em;
+  }
 }
 
 .contact .contact-form .form-label {
@@ -1138,6 +1130,10 @@ body {
   background-color: red;
   font-size: 14px;
   padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+}
+
+.contact .contact-form .name-wrap {
+  margin: 0 43px 0 52px;
 }
 
 .contact .contact-form .email-wrap {
@@ -1390,6 +1386,18 @@ body {
 }
 
 @media screen and (max-width: 740px) {
+  .contact .contact-form .name-wrap {
+    margin: 0 1em 0 1em;
+  }
+  .contact .contact-form .part-wrap-magin, .contact .contact-form .email-wrap, .contact .contact-form .type-wrap, .contact .contact-form .contents-wrap, .contact .contact-form .radio-wrap, .contact .contact-form .check-wrap {
+    margin: 3rem 1em 0 1em;
+  }
+  .contact .contact-form .radio-wrap {
+    text-align: left;
+  }
+  .contact .contact-form .submit_btn_wrap {
+    margin: 3rem 43px 0 52px;
+  }
   .contact .contact-form .submit-btn {
     width: 100%;
   }
@@ -1530,12 +1538,4 @@ body {
   right: 8px;
   bottom: 8px;
   display: none;
-}
-
-@media screen and (max-width: 740px) {
-  .top_btn {
-    position: absolute;
-    top: 0px;
-    left: 12em;
-  }
 }

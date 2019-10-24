@@ -91,8 +91,10 @@ body{
     margin-right: 1em;
   }
   .navbar.open {
-  transform: translateX(+100%);
+ transform: translateX(+100%);
+  //transform: scaleX(1);
   transition: ease .5s;
+  display: none;
   }
 
 }
@@ -158,6 +160,7 @@ body{
  .drw_menu ul li a{
  color:#707070;
  font-family: 'Lato', sans-serif;
+ display: block;
   }
   .drw_menu ul li::after{
     content: "";
@@ -593,7 +596,7 @@ body{
         background-color: #FFFFFF;
         color:#333333;
         text-align: right;
-        padding: 0.5rem 21px 0.5rem 0;
+        padding: 0.5em 0.2em 0.5em 0.2em;
         font-family: 'Lato', sans-serif;
       }
 
@@ -617,8 +620,8 @@ body{
   }
   @include mq('tab') {
     .price-containe{
-      text-align: center;
-      width: 90%;
+      text-align: left;
+      width: 95%;
       .image{
         float: none;
         margin-right: 0;
@@ -629,19 +632,6 @@ body{
 
     table.price_table {
     margin: 0 auto;
-    }
-  }
-
-  @include mq('sp') {
-    .price-containe{
-      text-align: center;
-      width: 90%;
-      .image{
-        float: none;
-        margin-right: 0;
-        margin-bottom: 2rem;
-
-      }
     }
   }
 
@@ -702,7 +692,7 @@ body{
   }
   @include mq('sp') {
     .access_text{
-      margin-left: 2rem;
+      margin-left: 1em;
     }
   }
   .access_text td:first-child{
@@ -1047,10 +1037,13 @@ body{
       margin: 0 0rem 0rem 0rem;
     }
   }
-  .contact-form{
-    .name-wrap{
-      margin: 0 43px 0 52px;
+  @include mq('sp') {
+    .contact-containe {
+      padding-bottom: 0em;
     }
+  }
+  .contact-form{
+ 
     .form-label{
       width: 229px;
       float: left;
@@ -1088,6 +1081,9 @@ body{
       background-color: red;
       font-size: 14px;
       padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+    }
+    .name-wrap{
+      margin: 0 43px 0 52px;
     }
     .email-wrap{
       margin: 3rem 43px 0 52px;
@@ -1330,9 +1326,36 @@ body{
        }
     }
     @include mq('sp') {
-       .submit-btn{
+      .name-wrap{
+        margin: 0 1em 0 1em;
+      }
+      .part-wrap-magin{
+        margin: 3rem 1em 0 1em;       
+      }
+
+      .email-wrap{
+        @extend .part-wrap-magin;
+      }
+      .type-wrap{
+        @extend .part-wrap-magin;
+      }
+      .contents-wrap{
+        @extend .part-wrap-magin;
+      }
+      .radio-wrap{
+        @extend .part-wrap-magin;
+        text-align: left;
+      }
+      .check-wrap{
+        @extend .part-wrap-magin;
+      }
+  
+      .submit_btn_wrap{
+        margin: 3rem 43px 0 52px;
+      }
+      .submit-btn{
         width: 100%;
-       }
+      }
     }
   }
 }
@@ -1462,13 +1485,5 @@ body{
   bottom: 8px;
   display: none;
 }
-
-@include mq('sp') {
-  .top_btn{
-    position: absolute;
-    top: 0px;
-    left: 12em;
-  }
-}  
 
 

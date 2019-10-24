@@ -4,6 +4,8 @@ function menu_line_ini() {
   $('.menu-price').removeClass('menu-underline');
   $('.menu-access').removeClass('menu-underline');
   $('.menu-contact').removeClass('menu-underline');
+  $(".drw_menu").removeClass("open");
+  $('.navbar').removeClass('open');
 };
 
 $(document).ready(function () {
