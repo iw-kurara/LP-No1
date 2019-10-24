@@ -1,0 +1,583 @@
+@charset "UTF-8";
+body {
+  margin: 0px;
+}
+
+
+.pt1 {
+  width: 475px;
+  border-bottom: solid 3px #3F51B5;
+  line-height: 40px;
+  font-size: 24px;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.hover1 {
+  display: inline-block;
+  padding: 0.6em 2em;
+  margin: 0 0 1em;
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+.hover1:hover {
+  opacity: 0.6;
+}
+
+.pt2 {
+  width: 475px;
+  border-bottom: dashed 3px #3F51B5;
+  line-height: 35px;
+  font-size: 24px;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.hover2 {
+  display: inline-block;
+  padding: 0.6em 2em;
+  margin: 0 0 1em;
+  background: #fff;
+  border: 0.1875em solid #3F51B;
+  color: #333;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+.hover2:hover {
+  background: #333;
+  color: #fff;
+}
+
+.pt3 {
+  width: 475px;
+  background-color: #3F51B5;
+  color: white;
+  line-height: 41px;
+  font-size: 24px;
+  margin-bottom: 40px;
+  font-weight: bold;
+  padding: 5px 28px 5px 10px;
+}
+
+.hover3 {
+  border-bottom: 0.1875em solid #1B5E20;
+  background-color: #4CAF50;
+  color: #fff;
+  display: inline-block;
+  padding: 0.6em 2em;
+  margin: 0 0 1em;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+.hover3:hover {
+  border-bottom-color: transparent;
+  transform: translateY(0.1875em);
+}
+
+.pt4 {
+  width: 475px;
+  background-color: #7385E9;
+  border-bottom: solid 3px #3F51B5;
+  color: white;
+  line-height: 41px;
+  font-size: 24px;
+  margin-bottom: 40px;
+  font-weight: bold;
+  padding: 5px 28px 5px 10px;
+}
+
+.hover4 {
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.25);
+  background-color: #4CAF50;
+  color: #fff;
+  display: inline-block;
+  padding: 0.6em 2em;
+  margin: 0 0 1em;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+.hover4:hover {
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.25);
+  transform: translateY(-0.1875em);
+}
+
+.pt5 {
+  width: 475px;
+  background-color: white;
+  border-left: solid 5px #3F51B5;
+  line-height: 31px;
+  font-size: 24px;
+  margin-bottom: 40px;
+  font-weight: bold;
+  padding: 2.5px 2.5px 0px 12px;
+}
+
+.hover5 {
+  transition: all 1s linear 0s;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.hover5:hover {
+  transform: rotateX(360deg);
+}
+
+.pt6 {
+  background-image: linear-gradient(transparent 50%, #dcee39 50%);
+  width: 190px;
+  line-height: 31px;
+  font-size: 24px;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.hover6 {
+  transition: all 1s linear 0s;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.hover6:hover {
+  transform: rotateY(360deg);
+}
+
+.pt7 {
+  line-height: 31px;
+  font-size: 24px;
+  margin-bottom: 40px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+.pt7 span{
+  background: #dcee39;
+}
+
+.hover7 {
+  transition: all 1s linear 0s;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.hover7:hover {
+  transform: rotateZ(360deg);
+}
+
+.pt8 h1{
+  position: relative;
+  padding: 0.6em;
+  background: #e0edff;
+  width: 475px;
+  height: 41px;
+}
+
+.pt8 h1:after {
+  position: absolute;
+  content: '';
+  top: 100%;
+  left: 30px;
+  border: 15px solid transparent;
+  border-top: 15px solid #e0edff;
+  width: 0;
+  height: 0;
+  margin-bottom: 40px;
+
+}
+
+.hover10 {
+  border-radius: 50%;
+  transition: all 0.6s ease 0s;
+}
+.hover10:hover {
+  cursor: pointer;
+  transform: scale(1.1, 1.1);
+}
+
+.pt9 h1 {
+  border-bottom: solid 3px #3F51B5;
+  position: relative;
+  width: 475px;
+  margin-bottom: 40px;
+
+}
+
+.pt9 h1:after {
+  position: absolute;
+  content: " ";
+  display: block;
+  border-bottom: solid 3px #B53F4F;
+  bottom: -3px;
+  width: 20%;
+}
+
+.hover8 {
+  display: inline-block;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+.hover8:hover {
+  color: #4CAF50;
+}
+
+.pt10 h1{
+  width: 475px;
+  background-color: white;
+  line-height: 31px;
+  font-size: 24px;
+  margin-bottom: 40px;
+  font-weight: bold;
+  padding: 2.5px 2.5px 0px 12px;
+  position: relative;
+}
+
+.pt10 h1:after {
+  position: absolute;
+  content: " ";
+  display: block;
+  border-left: solid 4px #3F51B5;
+  bottom: 9px;
+  left: -0.1%;
+  width: 20%;
+  height: 16px;
+
+}
+
+.hover9 {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+}
+.hover9::after {
+  position: absolute;
+  content: '';
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: #2196F3;
+  transition: all 0.3s ease 0s;
+}
+.hover9:hover {
+  cursor: pointer;
+}
+.hover9:hover::after {
+  width: 100%;
+}
+
+.pt11{
+  text-align: center;
+}
+.pt11 h1{
+  background-color: white;
+  line-height: 31px;
+  font-size: 24px;
+  margin-bottom: 40px;
+  font-weight: bold;
+  padding: 2.5px 2.5px 0px 12px;
+  position: relative;
+}
+
+.pt11 h1:after {
+  position: absolute;
+  content: " ";
+  display: block;
+  border-bottom: solid 4px #3F51B5;
+  width: 52px;
+  height: 4px;
+  left: 47%;
+
+}
+
+.pt12 h1 {
+  position: relative;
+  padding-left: 1.2em;/*アイコン分のスペース*/
+  line-height: 1.4;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.pt12  h1:before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f00c";
+  position: absolute;
+  font-size: 1em;
+  left: 0;
+  top: 0;
+  color: #3F51B5; 
+}
+.pt13 h1 {
+  position: relative;
+  padding-right: 1.2em;/*アイコン分のスペース*/
+  line-height: 1.4;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.pt13 h1::after {
+  font-family: "Font Awesome 5 Free";
+  content: "\f002";
+  position: absolute;
+  font-size: 1em;
+  bottom: 18.17px;
+  color: #3F51B5; 
+}
+
+.pt14{
+  text-align: center;
+
+}
+
+.pt14 h1 {
+  position: relative;
+  display: inline-block;
+  padding: 0 45px;
+}
+.pt14 h1:before,.pt14  h1:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  display: inline-block;
+  width: 44px;
+  height: 2px;
+  background-color: #3F51B5;
+}
+.pt14 h1:before {
+  left:0;
+  -webkit-transform: rotate(-110deg);
+  transform: rotate(-110deg);
+}
+.pt14 h1:after {
+  right: 0;
+  -webkit-transform: rotate(-70deg);
+  transform: rotate(-70deg);
+}
+
+.pt15{
+  text-align: center;
+}
+
+.pt15 h1 {
+  position: relative;
+  display: inline-block;
+  padding: 0 45px;
+}
+.pt15 h1:before,.pt15  h1:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  display: inline-block;
+  width: 129px;
+  height: 2px;
+  background-color: #3F51B5;
+}
+.pt15 h1:before {
+  left:-30%;
+  -webkit-transform: rotate(-0deg);
+  transform: rotate(-0deg);
+}
+.pt15 h1:after {
+  right: -30%;
+  -webkit-transform: rotate(-0deg);
+  transform: rotate(-0deg);
+}
+
+.pt16 h1 {
+  font-size: 24px;
+  width: 215px;
+  color: black;
+  text-align: center;
+  padding: 0.25em;
+  background: -webkit-repeating-linear-gradient(-45deg, #7385e9, #a6b9fe 3px,#e9f4ff 3px, #e9f4ff 7px);
+  background: repeating-linear-gradient(-45deg, #7385e9, #7385e9 10px, #a6b9fe 10px,#a6b9fe 20px);
+}
+
+.pt17 h1{
+  font-size: 24px;
+  width: 215px;
+  color: black;
+  text-align: center;
+  position: relative;
+  padding-left: 10px;
+  margin: 0px;
+  text-align: left;
+
+}
+
+.pt17 h1:after{
+  content: '';
+  position: absolute;
+  top:10%;
+  height: 20px;
+  width: 215px;
+  background: -webkit-repeating-linear-gradient(-45deg, #7385e9, #a6b9fe 3px,#e9f4ff 3px, #e9f4ff 7px);
+  background: repeating-linear-gradient(-45deg, #7385e9, #7385e9 10px, #a6b9fe 10px,#a6b9fe 20px);
+  top: 50%;
+  left: -0%;
+  height: 20px;
+  width: 230px;
+  z-index: -1;
+}
+
+.btn{
+  position: relative;
+}
+
+.btn1{
+  width: calc(230px - 93px - 16px);
+  height: calc(50px - 15px - 14px);
+  background-color: #3F51B5;
+  color: white;
+  font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;      
+  border-radius:3px;
+  padding: 15px 93px 14px 16px;
+  font-size: 16px;
+  margin-bottom: 30px;
+  margin-left: 260px;
+}
+
+.btn2 {
+  width: calc(230px - 2.5em - 16px);
+  height: calc(50px - 15px - 14px);
+  background-color: #3F51B5;
+  color: white;
+  font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;      
+  border-radius:3px;
+  padding: 15px 2.5em 14px 16px;
+  font-size: 16px;
+  margin-bottom: 30px;
+  margin-left: 260px;
+
+}
+.btn2::after {
+  position: absolute;
+  content: "\f0da";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  top: 50%;
+  left: 203.93px;
+  bottom: auto;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.btn3 {
+  width: calc(230px - 2.5em - 16px);
+  height: calc(50px - 15px - 14px);
+  background-color: #3F51B5;
+  color: white;
+  font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;      
+  border-radius:3px;
+  padding: 15px 2.5em 14px 16px;
+  font-size: 16px;
+  margin-bottom: 30px;
+  margin-left: 260px;
+
+}
+.btn3::after {
+  position: absolute;
+  content: "\f0da";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  top: 50%;
+  left: 142.93px;
+  bottom: auto;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.btn4{
+  width: calc(230px - 93px - 16px);
+  height: calc(50px - 15px - 14px);
+  background-color: #3F51B5;
+  color: white;
+  font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;      
+  border-radius:3px;
+  padding: 15px 93px 14px 16px;
+  font-size: 16px;
+  margin-bottom: 30px;
+  border-bottom: 5px solid #25379B;
+  box-shadow: none;
+  margin-left: 260px;
+
+}
+.btn5{
+  width: calc(230px - 93px - 16px);
+  height: calc(50px - 15px - 14px);
+  background-color: #3F51B5;
+  color: white;
+  font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;      
+  border-radius:3px;
+  padding: 15px 93px 14px 16px;
+  font-size: 16px;
+  margin-bottom: 30px;
+  background: linear-gradient(#3F51B5, #20295B);
+  margin-left: 260px;
+
+}
+
+.btn-contaner{
+  width: 100%;
+  height: 104px;
+  background-color: #333333;
+  margin-bottom: 30px;
+
+}
+
+.btn6{
+  width: calc(230px - 74px - 35px);
+  height: calc(50px - 15px - 14px);
+  background-color:#333333;
+  color: white;
+  font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;      
+  border-radius:3px;
+  padding: 15px 74px 14px 35px;
+  font-size: 16px;
+  margin: 26px 260px 28px 26px;
+  border: white solid 2px;
+  position: absolute;
+  margin-left: 260px;
+
+}
+
+
+.btn7{
+  border-radius: 50%;
+  height: 123px;
+  width: 123px;
+  background-color: #3F51B5;
+  color: white;
+  font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;      
+  font-size: 30px;
+  margin-bottom: 30px;
+  margin-left: 314px;
+  padding:38px 30px 38px 29px;
+}
+
+.btn7 span{
+  width: 64px;
+  height: 47px;
+}
+
+.btn8{
+  width: calc(230px - 93px - 16px);
+  height: calc(50px - 15px - 14px);
+  background-color: #3F51B5;
+  color: white;
+  font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;      
+  border-radius:115px;
+  padding: 15px 93px 14px 16px;
+  font-size: 16px;
+  margin-bottom: 30px;
+  margin-left: 260px;
+}
+.btn8::after{
+position: absolute;
+content: "\f0da";
+font-family: 'Font Awesome 5 Free';
+font-weight: 900;
+top: 50%;
+left: 203.93px;
+bottom: auto;
+-webkit-transform: translateY(-50%);
+-ms-transform: translateY(-50%);
+transform: translateY(-50%);
+}
