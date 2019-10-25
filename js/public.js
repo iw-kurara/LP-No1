@@ -96,11 +96,11 @@ $(document).ready(function () {
     });
 });
 
-$(window).on("scroll", function($) {
-  if (jQuery(this).scrollTop() > 100) {
-    jQuery('.top_btn').show(1000);
+$(window).on("scroll", function() {
+  if ($(this).scrollTop() > 100) {
+    $('.top_btn').show(1000);
   } else {
-    jQuery('.top_btn').hide(1000);
+    $('.top_btn').hide(1000);
   }
 });
 

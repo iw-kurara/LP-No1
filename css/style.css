@@ -876,7 +876,7 @@ body {
 }
 
 .qanda .answer .amark {
-  display: inline-block;
+  display: block;
   width: 3%;
   float: left;
   padding-right: 1em;
