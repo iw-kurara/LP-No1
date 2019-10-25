@@ -412,6 +412,12 @@ body{
     }
 
   }
+
+  @include mq('sp') {
+  .card-containe{
+    width: auto;
+  }
+  }
 }
 .news{
   width: 100%;
@@ -862,7 +868,6 @@ body{
     @include mq('sp') {
       .question{
         font-size: 0.85em;
-        padding: 0.2em 0.2em;
       }
  
       .qanda-containe{

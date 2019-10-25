@@ -425,6 +425,12 @@ body {
   }
 }
 
+@media screen and (max-width: 740px) {
+  .card .card-containe {
+    width: auto;
+  }
+}
+
 .news {
   width: 100%;
   background-color: #FFFFFF;
@@ -901,7 +907,6 @@ body {
 @media screen and (max-width: 740px) {
   .qanda .question {
     font-size: 0.85em;
-    padding: 0.2em 0.2em;
   }
   .qanda .qanda-containe {
     margin: 0 0.5em 0rem 0.5em;
